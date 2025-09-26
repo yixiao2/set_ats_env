@@ -1,4 +1,6 @@
-# COMPASS - 25Jan
+# COMPASS - 25Sep
+echo "[IMPORTANT NOTICE] Compiled based on branch phongle/transport_field_bugfix"
+
 module purge
 module load gcc/11.4.1
 module load openmpi/5.0.5
