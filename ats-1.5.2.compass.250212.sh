@@ -1,5 +1,6 @@
 # COMPASS - 25Sep
 echo "[IMPORTANT NOTICE] Compiled based on branch phongle/transport_field_bugfix"
+echo "need to change branch-ats in build_ATS_generic.sh to build it"
 
 module purge
 module load gcc/11.4.1
@@ -41,4 +42,5 @@ export PATH=${AMANZI_TPLS_DIR}/bin:${PATH}
 export PYTHONPATH=${ATS_SRC_DIR}/tools/utils:${PYTHONPATH}
 export PYTHONPATH=${AMANZI_TPLS_DIR}/SEACAS/lib:${PYTHONPATH}
 
+alias xmlconvert='python /compass/ber200003/xiao284/softwares/ats-152-250212/repos/amanzi/src/physics/ats/tools/input_converters/xml-1.5-master.py'
 
