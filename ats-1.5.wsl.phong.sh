@@ -27,4 +27,6 @@ export PATH=${AMANZI_TPLS_DIR}/bin:${PATH}
 export PYTHONPATH=${ATS_SRC_DIR}/tools/utils:${PYTHONPATH}
 export PYTHONPATH=${AMANZI_TPLS_DIR}/SEACAS/lib:${PYTHONPATH}
 
-export LD_LIBRARY_PATH=$AMANZI_TPLS_DIR/lib:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=$AMANZI_TPLS_DIR/lib:$LD_LIBRARY_PATHi
+
+alias xmlconvert='python /home/xiao284/softwares/ats-15-25sep-phong/repos/amanzi/src/physics/ats/tools/input_converters/xml-1.5-master.py'
