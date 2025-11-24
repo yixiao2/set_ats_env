@@ -15,7 +15,7 @@ export OMPI_PREFIX=$(pkg-config ompi --variable=prefix)
 
 
 # ATS
-export ATS_BASE=/compass/ber200003/xiao284/softwares/ats-master-250601
+export ATS_BASE=/compass/ber200003/xiao284/softwares/ats-master-251124
 export ATS_BUILD_TYPE=Release
 export ATS_VERSION=master
 #export OPENMPI_DIR=$MSC_OPENMPI_ROOT
