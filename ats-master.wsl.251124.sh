@@ -1,5 +1,5 @@
-# WSL - 20250523
-# https://github.com/amanzi/ats/commit/78105a0adfce375644f2a294d250fa4ee40170cf
+# WSL - 20251124
+# https://github.com/amanzi/ats/commit/765d326ab7715ba389d9fc0467a604b770e18616
 
 mamba activate watershed_workflow_1.5
 
@@ -7,7 +7,7 @@ export OMPI_PREFIX=$(pkg-config ompi --variable=prefix)
 
 
 # ATS
-export ATS_BASE=/home/xiao284/softwares/ats-master-250610
+export ATS_BASE=/home/xiao284/softwares/ats-master-251124
 export ATS_BUILD_TYPE=Release
 export ATS_VERSION=master
 export OPENMPI_DIR=$OMPI_PREFIX
